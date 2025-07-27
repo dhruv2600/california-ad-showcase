@@ -67,13 +67,17 @@ const Index = () => {
             <Badge variant="secondary" className="px-6 py-3 text-base font-medium">✓ Whitefield, Bangalore</Badge>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-4 text-lg">
-              <Phone className="mr-2 h-5 w-5" />
-              Call +91 9999999
+            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-4 text-lg" asChild>
+              <a href="tel:+919999999">
+                <Phone className="mr-2 h-5 w-5" />
+                Call +91 9999999
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="px-8 py-4 text-lg">
-              <Mail className="mr-2 h-5 w-5" />
-              Email Consultation
+            <Button size="lg" variant="outline" className="px-8 py-4 text-lg" asChild>
+              <a href="mailto:abdc@gmail.com?subject=Tax Consultation Inquiry&body=Hello, I would like to schedule a tax consultation. Please let me know your availability.">
+                <Mail className="mr-2 h-5 w-5" />
+                Email Consultation
+              </a>
             </Button>
           </div>
         </div>
@@ -268,13 +272,17 @@ const Index = () => {
               </div>
               
               <div className="grid gap-4">
-                <Button size="lg" className="w-full py-4 text-lg">
-                  <Phone className="mr-3 h-5 w-5" />
-                  Call Now: +91 9999999
+                <Button size="lg" className="w-full py-4 text-lg" asChild>
+                  <a href="tel:+919999999">
+                    <Phone className="mr-3 h-5 w-5" />
+                    Call Now: +91 9999999
+                  </a>
                 </Button>
-                <Button size="lg" variant="outline" className="w-full py-4 text-lg">
-                  <Mail className="mr-3 h-5 w-5" />
-                  Email: abdc@gmail.com
+                <Button size="lg" variant="outline" className="w-full py-4 text-lg" asChild>
+                  <a href="mailto:abdc@gmail.com?subject=Tax Consultation Request&body=Hello CA Narender,%0D%0A%0D%0AI would like to schedule a consultation for:%0D%0A%0D%0A☐ RSU/Stock Options taxation%0D%0A☐ Foreign investment compliance%0D%0A☐ Tax planning optimization%0D%0A☐ IT notice resolution%0D%0A☐ Other: ____________%0D%0A%0D%0APreferred contact method:%0D%0A☐ Phone call%0D%0A☐ Email%0D%0A☐ In-person meeting%0D%0A%0D%0ABest time to reach me: ____________%0D%0A%0D%0AThank you!">
+                    <Mail className="mr-3 h-5 w-5" />
+                    Email: abdc@gmail.com
+                  </a>
                 </Button>
               </div>
 
