@@ -199,14 +199,14 @@ const Index = () => {
           </div>
           
           <div className="bg-primary/5 rounded-2xl p-8 text-center">
-            <h3 className="text-2xl font-bold mb-4">Specialized in Tech Hub Professionals</h3>
+            <h3 className="text-2xl font-bold mb-4">Specialized in Tech Professionals Worldwide</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Located just 2km from Bagmane Tech Park (Amazon office), we understand the unique tax challenges faced by IT professionals, startup employees, and international workers in Bangalore's tech corridor.
+              We understand the unique tax challenges faced by IT professionals, startup employees, and international workers across India and globally.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Badge variant="secondary" className="px-4 py-2">Amazon Employees</Badge>
-              <Badge variant="secondary" className="px-4 py-2">Microsoft Staff</Badge>
+              <Badge variant="secondary" className="px-4 py-2">Tech Employees</Badge>
               <Badge variant="secondary" className="px-4 py-2">Startup Professionals</Badge>
+              <Badge variant="secondary" className="px-4 py-2">Remote Workers</Badge>
               <Badge variant="secondary" className="px-4 py-2">NRI Investors</Badge>
             </div>
           </div>
@@ -255,8 +255,8 @@ const Index = () => {
                     <div>
                       <p className="font-semibold text-lg">Office Location</p>
                       <p className="text-muted-foreground">The Arcade, Whitefield, Bangalore</p>
-                      <p className="text-sm text-muted-foreground font-medium">📍 Just 2km from Bagmane Tech Park (Amazon office)</p>
-                      <p className="text-sm text-muted-foreground">Remote consultations available nationwide</p>
+                      <p className="text-sm text-muted-foreground font-medium">📍 Tech Hub Location - Easily Accessible</p>
+                      <p className="text-sm text-muted-foreground">Remote consultations available nationwide & globally</p>
                     </div>
                   </div>
                 </CardContent>
