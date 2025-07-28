@@ -87,6 +87,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
+            <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">TRUSTED EXPERTS. PROVEN RESULTS.</p>
             <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Our Specialized Services</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Comprehensive tax solutions tailored for modern professionals and investors
@@ -160,37 +161,38 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Trusted by Professionals Across Bangalore</h2>
-            <p className="text-xl text-muted-foreground">Experience that matters, results that speak</p>
+            <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">SERVING OUR VALUED CLIENTS FOR MORE THAN 25+ YEARS</p>
+            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">CA ABCDEF & Co.</h2>
+            <p className="text-xl text-muted-foreground">Your trusted partner in financial excellence</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8 mb-12">
-            <Card className="text-center hover:shadow-lg transition-shadow">
+            <Card className="text-center group hover:shadow-lg transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-5xl font-bold text-primary mb-2">25+</CardTitle>
+                <CardTitle className="text-5xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">25+</CardTitle>
                 <CardDescription className="text-lg font-medium">
-                  Years Combined Experience
+                  Years of Experience
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="text-center hover:shadow-lg transition-shadow">
+            <Card className="text-center group hover:shadow-lg transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-5xl font-bold text-primary mb-2">500+</CardTitle>
+                <CardTitle className="text-5xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">30+</CardTitle>
                 <CardDescription className="text-lg font-medium">
-                  Tax Returns Filed
+                  Services We Offer
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="text-center hover:shadow-lg transition-shadow">
+            <Card className="text-center group hover:shadow-lg transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-5xl font-bold text-primary mb-2">100+</CardTitle>
+                <CardTitle className="text-5xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">500+</CardTitle>
                 <CardDescription className="text-lg font-medium">
-                  MNC Professionals Served
+                  Happy Clients
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="text-center hover:shadow-lg transition-shadow">
+            <Card className="text-center group hover:shadow-lg transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-5xl font-bold text-primary mb-2">₹50L+</CardTitle>
+                <CardTitle className="text-5xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">₹5Cr+</CardTitle>
                 <CardDescription className="text-lg font-medium">
                   Tax Savings Generated
                 </CardDescription>
@@ -217,8 +219,9 @@ const Index = () => {
       <section className="py-20 px-4 bg-gradient-to-b from-muted/20 to-primary/5">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Ready to Optimize Your Taxes?</h2>
-            <p className="text-xl text-muted-foreground">Get in touch for a consultation that could save you thousands</p>
+            <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">IF YOUR BUSINESS IS IN NEED OF A TRUSTED ADVISOR</p>
+            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Start Your Journey With CA ABCDEF & Co. Today</h2>
+            <p className="text-xl text-muted-foreground">Get in touch with us today for expert financial guidance</p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
