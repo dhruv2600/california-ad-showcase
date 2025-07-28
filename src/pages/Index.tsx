@@ -253,7 +253,7 @@ const Index = () => {
                       <p className="text-sm text-muted-foreground">Response within 2 hours</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-4 p-4 bg-primary/5 rounded-lg hover:bg-primary/10 transition-colors cursor-pointer" onClick={() => window.open('https://maps.google.com/?q=The+Arcade,+Whitefield,+Bangalore', '_blank')}>
+                  <div className="flex items-start gap-4 p-4 bg-primary/5 rounded-lg hover:bg-primary/10 transition-colors cursor-pointer" onClick={() => window.open('https://maps.app.goo.gl/DiLzvceFyiBhYD6i9', '_blank')}>
                     <MapPin className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Office Location</p>
