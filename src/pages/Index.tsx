@@ -253,13 +253,14 @@ const Index = () => {
                       <p className="text-sm text-muted-foreground">Response within 2 hours</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-4 p-4 bg-primary/5 rounded-lg">
+                  <div className="flex items-start gap-4 p-4 bg-primary/5 rounded-lg hover:bg-primary/10 transition-colors cursor-pointer" onClick={() => window.open('https://maps.google.com/?q=The+Arcade,+Whitefield,+Bangalore', '_blank')}>
                     <MapPin className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Office Location</p>
-                      <p className="text-muted-foreground">The Arcade, Whitefield, Bangalore</p>
+                      <p className="text-muted-foreground hover:text-primary transition-colors">The Arcade, Whitefield, Bangalore</p>
                       <p className="text-sm text-muted-foreground font-medium">📍 Tech Hub Location - Easily Accessible</p>
                       <p className="text-sm text-muted-foreground">Remote consultations available nationwide & globally</p>
+                      <p className="text-xs text-primary/80 mt-1">Click to open in Google Maps</p>
                     </div>
                   </div>
                 </CardContent>
