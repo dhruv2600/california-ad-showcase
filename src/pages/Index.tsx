@@ -5,6 +5,7 @@ import { Phone, Mail, MapPin, TrendingUp, FileText, Calculator, Building } from 
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import StructuredData from "@/components/StructuredData";
+import { ModeToggle } from "@/components/mode-toggle";
 
 const Index = () => {
   const services = [
@@ -49,6 +50,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background font-inter">
       <StructuredData />
+      <ModeToggle />
       {/* Hero Section */}
       <section className="py-24 px-4 text-center bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10">
         <div className="max-w-5xl mx-auto">
