@@ -68,13 +68,13 @@ const Index = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-4 text-lg" asChild>
-              <a href="tel:+919999999">
+              <a href="tel:+918310946034">
                 <Phone className="mr-2 h-5 w-5" />
-                Call +91 9999999
+                Call :+91 8310946034
               </a>
             </Button>
             <Button size="lg" variant="outline" className="px-8 py-4 text-lg" asChild>
-              <a href="mailto:abdc@gmail.com?subject=Tax Consultation Inquiry&body=Hello, I would like to schedule a tax consultation. Please let me know your availability.">
+              <a href="mailto:canarenders@gmail.com?subject=Tax Consultation Inquiry&body=Hello, I would like to schedule a tax consultation. Please let me know your availability.">
                 <Mail className="mr-2 h-5 w-5" />
                 Email Consultation
               </a>
@@ -241,7 +241,7 @@ const Index = () => {
                     <Phone className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Direct Phone</p>
-                      <p className="text-xl font-bold text-primary">+91 9999999</p>
+                      <p className="text-xl font-bold text-primary">+91 8310946034</p>
                       <p className="text-sm text-muted-foreground">Best time to call: 9 AM - 7 PM</p>
                     </div>
                   </div>
@@ -249,7 +249,7 @@ const Index = () => {
                     <Mail className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Email</p>
-                      <p className="text-lg font-bold text-primary">abdc@gmail.com</p>
+                      <p className="text-lg font-bold text-primary">canarenders@gmail.com</p>
                       <p className="text-sm text-muted-foreground">Response within 2 hours</p>
                     </div>
                   </div>
@@ -257,7 +257,7 @@ const Index = () => {
                     <Phone className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <p className="font-semibold text-lg">WhatsApp</p>
-                      <p className="text-lg font-bold text-primary">+91 9999999</p>
+                      <p className="text-lg font-bold text-primary">+91 8310946034</p>
                       <p className="text-sm text-muted-foreground">Quick consultation & document sharing</p>
                     </div>
                   </div>
@@ -285,21 +285,21 @@ const Index = () => {
               
               <div className="grid gap-4">
                 <Button size="lg" className="w-full py-4 text-lg" asChild>
-                  <a href="tel:+919999999">
+                  <a href="tel:+918310946034">
                     <Phone className="mr-3 h-5 w-5" />
-                    Call Now: +91 9999999
+                    Call Now: +91 8310946034
                   </a>
                 </Button>
                 <Button size="lg" variant="secondary" className="w-full py-4 text-lg" asChild>
-                  <a href="https://wa.me/919999999?text=Hello%20CA%20Narender,%20I%20would%20like%20to%20schedule%20a%20tax%20consultation.%20Please%20let%20me%20know%20your%20availability." target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/918310946034?text=Hello%20CA%20Narender,%20I%20would%20like%20to%20schedule%20a%20tax%20consultation.%20Please%20let%20me%20know%20your%20availability." target="_blank" rel="noopener noreferrer">
                     <Phone className="mr-3 h-5 w-5" />
-                    WhatsApp: +91 9999999
+                    WhatsApp: +91 8310946034
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="w-full py-4 text-lg" asChild>
-                  <a href="mailto:abdc@gmail.com?subject=Tax Consultation Request&body=Hello CA Narender,%0D%0A%0D%0AI would like to schedule a consultation for:%0D%0A%0D%0A☐ RSU/Stock Options taxation%0D%0A☐ Foreign investment compliance%0D%0A☐ Tax planning optimization%0D%0A☐ IT notice resolution%0D%0A☐ Other: ____________%0D%0A%0D%0APreferred contact method:%0D%0A☐ Phone call%0D%0A☐ WhatsApp%0D%0A☐ Email%0D%0A☐ In-person meeting%0D%0A%0D%0ABest time to reach me: ____________%0D%0A%0D%0AThank you!">
+                  <a href="mailto:canarenders@gmail.com?subject=Tax Consultation Request&body=Hello CA Narender,%0D%0A%0D%0AI would like to schedule a consultation for:%0D%0A%0D%0A☐ RSU/Stock Options taxation%0D%0A☐ Foreign investment compliance%0D%0A☐ Tax planning optimization%0D%0A☐ IT notice resolution%0D%0A☐ Other: ____________%0D%0A%0D%0APreferred contact method:%0D%0A☐ Phone call%0D%0A☐ WhatsApp%0D%0A☐ Email%0D%0A☐ In-person meeting%0D%0A%0D%0ABest time to reach me: ____________%0D%0A%0D%0AThank you!">
                     <Mail className="mr-3 h-5 w-5" />
-                    Email: abdc@gmail.com
+                    Email: canarenders@gmail.com
                   </a>
                 </Button>
               </div>
@@ -347,8 +347,8 @@ const Index = () => {
             </div>
             <div>
               <h4 className="font-semibold text-lg mb-4">Contact Info</h4>
-              <p className="opacity-90 mb-2">📞 +91 9999999</p>
-              <p className="opacity-90 mb-2">📧 abdc@gmail.com</p>
+              <p className="opacity-90 mb-2">📞 +91 8310946034</p>
+              <p className="opacity-90 mb-2">📧 canarenders@gmail.com</p>
               <p className="opacity-90">📍 The Arcade, Whitefield, Bangalore</p>
             </div>
           </div>
