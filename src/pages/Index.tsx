@@ -2,6 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Phone, Mail, MapPin, TrendingUp, FileText, Calculator, Building } from "lucide-react";
+import ContactForm from "@/components/ContactForm";
+import FAQ from "@/components/FAQ";
+import StructuredData from "@/components/StructuredData";
+import { ModeToggle } from "@/components/mode-toggle";
 
 const Index = () => {
   const services = [
@@ -45,6 +49,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+      <StructuredData />
+      <ModeToggle />
       {/* Hero Section */}
       <section className="py-24 px-4 text-center bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10">
         <div className="max-w-5xl mx-auto">
@@ -276,12 +282,7 @@ const Index = () => {
             </div>
 
             <div className="space-y-8">
-              <div className="text-center">
-                <h3 className="text-2xl font-bold mb-4">Quick Consultation</h3>
-                <p className="text-muted-foreground mb-6">
-                  Get expert advice on your tax situation via phone, WhatsApp, or email. Whether it's RSU taxation, foreign investments, or complex scenarios - we're here to help.
-                </p>
-              </div>
+              <ContactForm />
               
               <div className="grid gap-4">
                 <Button size="lg" className="w-full py-4 text-lg" asChild>
@@ -322,6 +323,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQ />
 
       {/* Footer */}
       <footer className="py-12 px-4 bg-primary text-primary-foreground">
