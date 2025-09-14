@@ -50,7 +50,7 @@ const Index = () => {
         <div className="max-w-5xl mx-auto">
           <div className="mb-6">
             <h1 className="font-playfair text-6xl md:text-7xl font-bold mb-4 text-foreground tracking-tight">
-              CA ABCDEF & Co.
+              CA Narender S & Co.
             </h1>
             <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           </div>
@@ -116,7 +116,7 @@ const Index = () => {
       <section className="py-20 px-4 bg-gradient-to-r from-muted/30 to-secondary/10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Why Choose CA ABCDEF & Co.?</h2>
+            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Why Choose CA Narender S & Co.?</h2>
             <p className="text-xl text-muted-foreground">Proven expertise that saves you money and stress</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -162,7 +162,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">SERVING OUR VALUED CLIENTS FOR MORE THAN 25+ YEARS</p>
-            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">CA ABCDEF & Co.</h2>
+            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">CA Narender S & Co.</h2>
             <p className="text-xl text-muted-foreground">Your trusted partner in financial excellence</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8 mb-12">
@@ -220,7 +220,7 @@ const Index = () => {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">IF YOUR BUSINESS IS IN NEED OF A TRUSTED ADVISOR</p>
-            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Start Your Journey With CA ABCDEF & Co. Today</h2>
+            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Start Your Journey With CA Narender S & Co. Today</h2>
             <p className="text-xl text-muted-foreground">Get in touch with us today for expert financial guidance</p>
           </div>
           
@@ -253,6 +253,14 @@ const Index = () => {
                       <p className="text-sm text-muted-foreground">Response within 2 hours</p>
                     </div>
                   </div>
+                  <div className="flex items-start gap-4 p-4 bg-primary/5 rounded-lg">
+                    <Phone className="h-6 w-6 text-primary mt-1" />
+                    <div>
+                      <p className="font-semibold text-lg">WhatsApp</p>
+                      <p className="text-lg font-bold text-primary">+91 9999999</p>
+                      <p className="text-sm text-muted-foreground">Quick consultation & document sharing</p>
+                    </div>
+                  </div>
                   <div className="flex items-start gap-4 p-4 bg-primary/5 rounded-lg hover:bg-primary/10 transition-colors cursor-pointer" onClick={() => window.open('https://maps.app.goo.gl/DiLzvceFyiBhYD6i9', '_blank')}>
                     <MapPin className="h-6 w-6 text-primary mt-1" />
                     <div>
@@ -271,7 +279,7 @@ const Index = () => {
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-4">Quick Consultation</h3>
                 <p className="text-muted-foreground mb-6">
-                  Get expert advice on your tax situation. Whether it's RSU taxation, foreign investments, or complex scenarios - we're here to help.
+                  Get expert advice on your tax situation via phone, WhatsApp, or email. Whether it's RSU taxation, foreign investments, or complex scenarios - we're here to help.
                 </p>
               </div>
               
@@ -282,8 +290,14 @@ const Index = () => {
                     Call Now: +91 9999999
                   </a>
                 </Button>
+                <Button size="lg" variant="secondary" className="w-full py-4 text-lg" asChild>
+                  <a href="https://wa.me/919999999?text=Hello%20CA%20Narender,%20I%20would%20like%20to%20schedule%20a%20tax%20consultation.%20Please%20let%20me%20know%20your%20availability." target="_blank" rel="noopener noreferrer">
+                    <Phone className="mr-3 h-5 w-5" />
+                    WhatsApp: +91 9999999
+                  </a>
+                </Button>
                 <Button size="lg" variant="outline" className="w-full py-4 text-lg" asChild>
-                  <a href="mailto:abdc@gmail.com?subject=Tax Consultation Request&body=Hello CA Narender,%0D%0A%0D%0AI would like to schedule a consultation for:%0D%0A%0D%0A☐ RSU/Stock Options taxation%0D%0A☐ Foreign investment compliance%0D%0A☐ Tax planning optimization%0D%0A☐ IT notice resolution%0D%0A☐ Other: ____________%0D%0A%0D%0APreferred contact method:%0D%0A☐ Phone call%0D%0A☐ Email%0D%0A☐ In-person meeting%0D%0A%0D%0ABest time to reach me: ____________%0D%0A%0D%0AThank you!">
+                  <a href="mailto:abdc@gmail.com?subject=Tax Consultation Request&body=Hello CA Narender,%0D%0A%0D%0AI would like to schedule a consultation for:%0D%0A%0D%0A☐ RSU/Stock Options taxation%0D%0A☐ Foreign investment compliance%0D%0A☐ Tax planning optimization%0D%0A☐ IT notice resolution%0D%0A☐ Other: ____________%0D%0A%0D%0APreferred contact method:%0D%0A☐ Phone call%0D%0A☐ WhatsApp%0D%0A☐ Email%0D%0A☐ In-person meeting%0D%0A%0D%0ABest time to reach me: ____________%0D%0A%0D%0AThank you!">
                     <Mail className="mr-3 h-5 w-5" />
                     Email: abdc@gmail.com
                   </a>
@@ -314,7 +328,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="font-playfair text-2xl font-bold mb-4">CA ABCDEF & Co.</h3>
+              <h3 className="font-playfair text-2xl font-bold mb-4">CA Narender S & Co.</h3>
               <p className="opacity-90 mb-4">
                 Expert chartered accountants specializing in complex tax scenarios for IT professionals and investors in Bangalore.
               </p>
@@ -340,7 +354,7 @@ const Index = () => {
           </div>
           <div className="border-t border-white/20 pt-8 text-center">
             <p className="opacity-90">
-              © 2024 CA ABCDEF & Co. | Professional Tax Consultants | Bangalore
+              © 2024 CA Narender S & Co. | Professional Tax Consultants | Bangalore
             </p>
             <p className="text-sm opacity-75 mt-2">
               Reach out for help with tax filing or any notices received for previously filed returns
