@@ -6,6 +6,10 @@ import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import StructuredData from "@/components/StructuredData";
 import { ModeToggle } from "@/components/mode-toggle";
+import Testimonials from "@/components/Testimonials";
+import PricingCalculator from "@/components/PricingCalculator";
+import TrustBadges from "@/components/TrustBadges";
+import BlogSection from "@/components/BlogSection";
 
 const Index = () => {
   const services = [
@@ -220,6 +224,18 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Trust Badges */}
+      <TrustBadges />
+
+      {/* Testimonials */}
+      <Testimonials />
+
+      {/* Pricing Calculator */}
+      <PricingCalculator />
+
+      {/* Blog Section */}
+      <BlogSection />
 
       {/* Contact Section */}
       <section className="py-20 px-4 bg-gradient-to-b from-muted/20 to-primary/5">
