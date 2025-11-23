@@ -28,12 +28,6 @@ const Index = () => {
       highlight: "Avoid double taxation"
     },
     {
-      title: "PMS & Trading",
-      description: "Portfolio Management Services, Stock trading, F&O transactions with optimal tax efficiency",
-      icon: <TrendingUp className="h-6 w-6" />,
-      highlight: "Trading professionals"
-    },
-    {
       title: "Investment Planning",
       description: "Strategic mutual fund investments and comprehensive tax planning for wealth building",
       icon: <FileText className="h-6 w-6" />,
@@ -145,7 +139,7 @@ const Index = () => {
                 </div>
                 <CardTitle className="text-xl mb-3">Maximum Tax Savings</CardTitle>
                 <CardDescription className="text-base">
-                  Strategic planning to minimize tax liability through legal deductions, exemptions, and credits. Our clients typically save 15-30% on their tax burden.
+                  Strategic planning to minimize tax liability through legal deductions, exemptions, and credits.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -164,63 +158,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Experience & Trust Section */}
-      <section className="py-20 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">SERVING OUR VALUED CLIENTS FOR MORE THAN 25+ YEARS</p>
-            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">CA Narender Sharma</h2>
-            <p className="text-xl text-muted-foreground">Your trusted financial advisor</p>
-          </div>
-          <div className="grid md:grid-cols-4 gap-8 mb-12">
-            <Card className="text-center group hover:shadow-lg transition-all duration-300">
-              <CardHeader>
-                <CardTitle className="text-5xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">25+</CardTitle>
-                <CardDescription className="text-lg font-medium">
-                  Years of Experience
-                </CardDescription>
-              </CardHeader>
-            </Card>
-            <Card className="text-center group hover:shadow-lg transition-all duration-300">
-              <CardHeader>
-                <CardTitle className="text-5xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">30+</CardTitle>
-                <CardDescription className="text-lg font-medium">
-                  Services We Offer
-                </CardDescription>
-              </CardHeader>
-            </Card>
-            <Card className="text-center group hover:shadow-lg transition-all duration-300">
-              <CardHeader>
-                <CardTitle className="text-5xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">500+</CardTitle>
-                <CardDescription className="text-lg font-medium">
-                  Happy Clients
-                </CardDescription>
-              </CardHeader>
-            </Card>
-            <Card className="text-center group hover:shadow-lg transition-all duration-300">
-              <CardHeader>
-                <CardTitle className="text-5xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">₹5Cr+</CardTitle>
-                <CardDescription className="text-lg font-medium">
-                  Tax Savings Generated
-                </CardDescription>
-              </CardHeader>
-            </Card>
-          </div>
-          
-          <div className="bg-primary/5 rounded-2xl p-8 text-center">
-            <h3 className="text-2xl font-bold mb-4">Specialized in Tech Professionals Worldwide</h3>
-            <p className="text-lg text-muted-foreground mb-6">
-              We understand the unique tax challenges faced by IT professionals, startup employees, and international workers across India and globally.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Badge variant="secondary" className="px-4 py-2">Tech Employees</Badge>
-              <Badge variant="secondary" className="px-4 py-2">Startup Professionals</Badge>
-              <Badge variant="secondary" className="px-4 py-2">Remote Workers</Badge>
-              <Badge variant="secondary" className="px-4 py-2">NRI Investors</Badge>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section className="py-20 px-4 bg-gradient-to-b from-muted/20 to-primary/5">
@@ -331,7 +268,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 px-4 bg-primary text-primary-foreground">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
               <h3 className="font-playfair text-2xl font-bold mb-4">CA Narender Sharma</h3>
               <p className="opacity-90 mb-4">
@@ -340,15 +277,6 @@ const Index = () => {
               <div className="flex gap-4">
                 <Badge variant="outline" className="bg-white/10 text-white border-white/20">25+ Years Experience</Badge>
               </div>
-            </div>
-            <div>
-              <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
-              <ul className="space-y-2 opacity-90">
-                <li>• RSU & Stock Option Taxation</li>
-                <li>• Foreign Investment Compliance</li>
-                <li>• Tax Notice Resolution</li>
-                <li>• Investment Planning</li>
-              </ul>
             </div>
             <div>
               <h4 className="font-semibold text-lg mb-4">Contact Info</h4>
