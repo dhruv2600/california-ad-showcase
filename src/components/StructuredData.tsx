@@ -2,7 +2,7 @@ const StructuredData = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "AccountingService",
-    "name": "CA Narender S & Co.",
+    "name": "CA Narender Sharma",
     "description": "Expert Chartered Accountants specializing in RSU taxation, foreign investments, and IT notice resolution",
     "url": "https://california-ad-showcase.vercel.app",
     "telephone": "+91-8310946034",

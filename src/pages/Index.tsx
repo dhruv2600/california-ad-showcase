@@ -52,19 +52,20 @@ const Index = () => {
       <StructuredData />
       <ModeToggle />
       {/* Hero Section */}
-      <section className="py-24 px-4 text-center bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative py-24 px-4 text-center bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/hero-background.png)' }}>
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="relative z-10 max-w-5xl mx-auto">
           <div className="mb-6">
-            <h1 className="font-playfair text-6xl md:text-7xl font-bold mb-4 text-foreground tracking-tight">
-              CA Narender S & Co.
+            <h1 className="font-playfair text-6xl md:text-7xl font-bold mb-4 text-white tracking-tight">
+              CA NARENDER SHARMA
             </h1>
             <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           </div>
-          <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-foreground">
-            Expert Chartered Accountants in Bangalore
+          <h2 className="text-2xl md:text-3xl font-medium mb-6 text-gray-200">
+            Your trusted financial advisor
           </h2>
-          <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Specializing in complex tax scenarios for <span className="font-semibold text-primary">IT professionals, investors, and NRIs</span>. 
+          <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+            Specializing in complex tax scenarios for <span className="font-semibold text-white">IT professionals, investors, and NRIs</span>. 
             From RSU taxation to foreign investments - we ensure maximum savings while maintaining full compliance.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-10">
@@ -122,7 +123,7 @@ const Index = () => {
       <section className="py-20 px-4 bg-gradient-to-r from-muted/30 to-secondary/10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Why Choose CA Narender S & Co.?</h2>
+            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Why Choose CA Narender Sharma?</h2>
             <p className="text-xl text-muted-foreground">Proven expertise that saves you money and stress</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -168,8 +169,8 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">SERVING OUR VALUED CLIENTS FOR MORE THAN 25+ YEARS</p>
-            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">CA Narender S & Co.</h2>
-            <p className="text-xl text-muted-foreground">Your trusted partner in financial excellence</p>
+            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">CA Narender Sharma</h2>
+            <p className="text-xl text-muted-foreground">Your trusted financial advisor</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <Card className="text-center group hover:shadow-lg transition-all duration-300">
@@ -226,7 +227,7 @@ const Index = () => {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">IF YOUR BUSINESS IS IN NEED OF A TRUSTED ADVISOR</p>
-            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Start Your Journey With CA Narender S & Co. Today</h2>
+            <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Start Your Journey With CA Narender Sharma Today</h2>
             <p className="text-xl text-muted-foreground">Get in touch with us today for expert financial guidance</p>
           </div>
           
@@ -332,7 +333,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="font-playfair text-2xl font-bold mb-4">CA Narender S & Co.</h3>
+              <h3 className="font-playfair text-2xl font-bold mb-4">CA Narender Sharma</h3>
               <p className="opacity-90 mb-4">
                 Expert chartered accountants specializing in complex tax scenarios for IT professionals and investors in Bangalore.
               </p>
@@ -358,7 +359,7 @@ const Index = () => {
           </div>
           <div className="border-t border-white/20 pt-8 text-center">
             <p className="opacity-90">
-              © 2024 CA Narender S & Co. | Professional Tax Consultants | Bangalore
+              © 2024 CA Narender Sharma | Professional Tax Consultants | Bangalore
             </p>
             <p className="text-sm opacity-75 mt-2">
               Reach out for help with tax filing or any notices received for previously filed returns
