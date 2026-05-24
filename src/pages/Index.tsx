@@ -67,6 +67,7 @@ const Index = () => {
             <Badge variant="secondary" className="px-6 py-3 text-base font-medium">✓ 25+ Years Combined Experience</Badge>
             <Badge variant="secondary" className="px-6 py-3 text-base font-medium">✓ MNC & Fortune 500 Clients</Badge>
             <Badge variant="secondary" className="px-6 py-3 text-base font-medium">✓ Whitefield, Bangalore</Badge>
+            <Badge variant="secondary" className="px-6 py-3 text-base font-medium">⭐ Rated 5.0 on Google</Badge>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-4 text-lg" asChild>
