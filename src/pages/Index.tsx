@@ -63,11 +63,11 @@ const Index = () => {
             Specializing in complex tax scenarios for <span className="font-semibold text-white">IT professionals, investors, and NRIs</span>. 
             From RSU taxation to foreign investments - we ensure maximum savings while maintaining full compliance.
           </p>
-          <div className="flex flex-wrap justify-center gap-4 mb-10">
-            <Badge variant="secondary" className="px-6 py-3 text-base font-medium">✓ 25+ Years Combined Experience</Badge>
-            <Badge variant="secondary" className="px-6 py-3 text-base font-medium">✓ MNC & Fortune 500 Clients</Badge>
-            <Badge variant="secondary" className="px-6 py-3 text-base font-medium">✓ Whitefield, Bangalore</Badge>
-            <Badge variant="secondary" className="px-6 py-3 text-base font-medium">⭐ Rated 5.0 on Google</Badge>
+          <div className="flex flex-wrap justify-center gap-3 mb-10">
+            <Badge variant="secondary" className="px-5 py-2.5 text-sm font-medium">✓ 25+ Years Combined Experience</Badge>
+            <Badge variant="secondary" className="px-5 py-2.5 text-sm font-medium">✓ MNC & Fortune 500 Clients</Badge>
+            <Badge variant="secondary" className="px-5 py-2.5 text-sm font-medium">📍 Whitefield, Bangalore</Badge>
+            <Badge variant="secondary" className="px-5 py-2.5 text-sm font-medium">⭐ Rated 5.0 on Google</Badge>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-4 text-lg" asChild>
