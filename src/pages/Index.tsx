@@ -5,8 +5,8 @@ import { Phone, Mail, MapPin, TrendingUp, FileText, Calculator, Building } from 
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Testimonials from "@/components/Testimonials";
+import Navbar from "@/components/Navbar";
 import StructuredData from "@/components/StructuredData";
-import { ModeToggle } from "@/components/mode-toggle";
 
 const Index = () => {
   const services = [
@@ -45,9 +45,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background font-inter">
       <StructuredData />
-      <ModeToggle />
+      <Navbar />
       {/* Hero Section */}
-      <section className="relative py-24 px-4 text-center bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/hero-background.png)' }}>
+      <section className="relative pt-32 pb-24 px-4 text-center bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/hero-background.png)' }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 max-w-5xl mx-auto">
           <div className="mb-6">
@@ -86,7 +86,7 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 px-4">
+      <section id="services" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">TRUSTED EXPERTS. PROVEN RESULTS.</p>
@@ -115,7 +115,7 @@ const Index = () => {
       </section>
 
       {/* Value Proposition Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-muted/30 to-secondary/10">
+      <section id="why-us" className="py-20 px-4 bg-gradient-to-r from-muted/30 to-secondary/10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-playfair text-4xl font-bold mb-4 text-foreground">Why Choose CA Narender Sharma?</h2>
@@ -164,7 +164,7 @@ const Index = () => {
       <Testimonials />
 
       {/* Contact Section */}
-      <section className="py-20 px-4 bg-gradient-to-b from-muted/20 to-primary/5">
+      <section id="contact" className="py-20 px-4 bg-gradient-to-b from-muted/20 to-primary/5">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">IF YOUR BUSINESS IS IN NEED OF A TRUSTED ADVISOR</p>

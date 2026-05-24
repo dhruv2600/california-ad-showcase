@@ -21,7 +21,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-secondary/10 to-muted/20">
+    <section id="reviews" className="py-20 px-4 bg-gradient-to-b from-secondary/10 to-muted/20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-2">
