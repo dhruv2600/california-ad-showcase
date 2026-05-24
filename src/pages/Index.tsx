@@ -85,28 +85,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Location Strip */}
-      <section className="py-10 px-4 bg-muted/30">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <MapPin className="h-5 w-5 text-primary" />
-            <h3 className="font-semibold text-lg">Visit Us at Whitefield, Bangalore</h3>
-          </div>
-          <div className="rounded-xl overflow-hidden shadow-lg">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7!2d77.702774!3d12.9923808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11ff265049db%3A0x6792a7f82921b890!2sCA%20Narender%20Sharma!5e0!3m2!1sen!2sin!4v1"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="CA Narender Sharma Office Location"
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Services Section */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
@@ -243,6 +221,19 @@ const Index = () => {
                   </div>
                 </CardContent>
               </Card>
+
+              <div className="rounded-xl overflow-hidden shadow-lg mt-6">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7!2d77.702774!3d12.9923808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11ff265049db%3A0x6792a7f82921b890!2sCA%20Narender%20Sharma!5e0!3m2!1sen!2sin!4v1"
+                  width="100%"
+                  height="250"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="CA Narender Sharma Office Location"
+                />
+              </div>
             </div>
 
             <div className="space-y-8">
