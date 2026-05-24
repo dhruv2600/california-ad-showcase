@@ -163,6 +163,20 @@ const Index = () => {
       {/* Testimonials Section */}
       <Testimonials />
 
+      {/* Our Office */}
+      <section className="py-16 px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="font-playfair text-3xl font-bold mb-2 text-foreground">Our Office</h2>
+            <p className="text-muted-foreground">Whitefield, Bangalore</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            <img src="/office-1.png" alt="CA Narender Sharma Office" className="rounded-xl shadow-lg w-full h-64 object-cover" />
+            <img src="/office-2.png" alt="CA Narender Sharma Office Interior" className="rounded-xl shadow-lg w-full h-64 object-cover" />
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 bg-gradient-to-b from-muted/20 to-primary/5">
         <div className="max-w-5xl mx-auto">
