@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Phone, Mail, MapPin, TrendingUp, FileText, Calculator, Building } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import Testimonials from "@/components/Testimonials";
 import StructuredData from "@/components/StructuredData";
 import { ModeToggle } from "@/components/mode-toggle";
 
@@ -158,6 +159,9 @@ const Index = () => {
         </div>
       </section>
 
+
+      {/* Testimonials Section */}
+      <Testimonials />
 
       {/* Contact Section */}
       <section className="py-20 px-4 bg-gradient-to-b from-muted/20 to-primary/5">
