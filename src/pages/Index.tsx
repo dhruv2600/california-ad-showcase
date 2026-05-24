@@ -243,13 +243,6 @@ const Index = () => {
                 </Button>
               </div>
 
-              <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
-                <h4 className="font-bold text-green-800 mb-2">Free Initial Consultation</h4>
-                <p className="text-green-700 text-sm">
-                  First 30-minute consultation is completely free. No obligation, just expert advice to help you understand your options.
-                </p>
-              </div>
-
               <div className="text-center">
                 <p className="text-sm text-muted-foreground">
                   ⚡ Emergency tax notice support available<br/>
