@@ -1,77 +1,76 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useToast } from "@/hooks/use-toast";
+import { MessageCircle } from "lucide-react";
 
 const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const { toast } = useToast();
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     const formData = new FormData(e.currentTarget);
-    const data = {
-      name: formData.get('name'),
-      email: formData.get('email'),
-      phone: formData.get('phone'),
-      service: formData.get('service'),
-      message: formData.get('message')
-    };
+    const name = formData.get("name") as string;
+    const phone = formData.get("phone") as string;
+    const service = formData.get("service") as string;
+    const message = formData.get("message") as string;
 
-    // Create mailto link with form data
-    const subject = `Tax Consultation Request - ${data.service}`;
-    const body = `Name: ${data.name}
-Email: ${data.email}
-Phone: ${data.phone}
-Service Needed: ${data.service}
+    const text = `Hi CA Narender,
 
-Message:
-${data.message}`;
+I'd like to request a consultation.
 
-    const mailtoLink = `mailto:canarenders@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
+*Name:* ${name}
+*Phone:* ${phone}
+*Service:* ${service}
+${message ? `*Details:* ${message}` : ""}
 
-    toast({
-      title: "Email client opened",
-      description: "Please send the email to complete your consultation request.",
-    });
+Looking forward to hearing from you.`;
 
+    window.open(
+      `https://wa.me/918310946034?text=${encodeURIComponent(text)}`,
+      "_blank"
+    );
     setIsSubmitting(false);
   };
 
   return (
     <Card className="w-full max-w-lg">
       <CardHeader>
-        <CardTitle>Quick Consultation Request</CardTitle>
+        <CardTitle className="flex items-center gap-2">
+          <MessageCircle className="h-5 w-5 text-green-600" />
+          Quick Consultation Request
+        </CardTitle>
+        <CardDescription>
+          You'll be redirected to WhatsApp to send your request directly
+        </CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit} className="space-y-4">
           <Input name="name" placeholder="Your Name" required />
-          <Input name="email" type="email" placeholder="Email Address" required />
           <Input name="phone" type="tel" placeholder="Phone Number" required />
           <Select name="service" required>
             <SelectTrigger>
               <SelectValue placeholder="Select Service Needed" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="rsu-taxation">RSU & Stock Options</SelectItem>
-              <SelectItem value="foreign-investment">Foreign Investments</SelectItem>
-              <SelectItem value="tax-credits">Tax Credit Optimization</SelectItem>
-              <SelectItem value="trading">PMS & Trading</SelectItem>
-              <SelectItem value="investment-planning">Investment Planning</SelectItem>
-              <SelectItem value="property-salary">Property & Salary</SelectItem>
-              <SelectItem value="it-notice">IT Notice Resolution</SelectItem>
-              <SelectItem value="other">Other</SelectItem>
+              <SelectItem value="RSU & Stock Options">RSU & Stock Options</SelectItem>
+              <SelectItem value="Foreign Investments">Foreign Investments</SelectItem>
+              <SelectItem value="Tax Credit Optimization">Tax Credit Optimization</SelectItem>
+              <SelectItem value="PMS & Trading">PMS & Trading</SelectItem>
+              <SelectItem value="Investment Planning">Investment Planning</SelectItem>
+              <SelectItem value="Property & Salary">Property & Salary</SelectItem>
+              <SelectItem value="IT Notice Resolution">IT Notice Resolution</SelectItem>
+              <SelectItem value="Other">Other</SelectItem>
             </SelectContent>
           </Select>
-          <Textarea name="message" placeholder="Brief description of your tax situation..." rows={3} />
-          <Button type="submit" className="w-full" disabled={isSubmitting}>
-            {isSubmitting ? "Opening Email..." : "Request Consultation"}
+          <Textarea name="message" placeholder="Brief description (optional)" rows={3} />
+          <Button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white" disabled={isSubmitting}>
+            <MessageCircle className="mr-2 h-5 w-5" />
+            {isSubmitting ? "Opening WhatsApp..." : "Send via WhatsApp"}
           </Button>
         </form>
       </CardContent>
